@@ -14,9 +14,14 @@ function isPalindrome(word) {
 */
 
 /*
-  isPalindrome takes a string in as an argument and checks to see if the string is a palindrome.
-  It checks this by reversing the string and comparing the original string with the reversed string to see if they are equal.
-  It reverses the string by splitting it into an array of letters and reversing the array then rejoining the array into a string.
+  isPalindrome takes a string as an argument and checks to see if the string is a palindrome.
+  It checks this by:
+    1. Reversing the string by:
+      a. Splitting the string into an array of letters
+      b. Reversing the array
+      c. Joining the array into a new string
+    2. Comparing the original string with the new string to see if they are equal
+  It returns the truthiness of the equality statement. 
 */
 
 // You can run `node index.js` to view these console logs
